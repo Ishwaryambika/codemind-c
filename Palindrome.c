@@ -8,14 +8,14 @@ int main()
     {
         rem=n%10;
         rev=rev*10+rem;
-        n/=10;
+        n /=10;
     }
     if(org==rev)
     {
-        printf("Palindrome");
+        printf("True");
     }
     else
     {
-        printf("Not Palindrome");
+        printf("False");
     }
 }
