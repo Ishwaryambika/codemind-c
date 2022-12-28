@@ -10,12 +10,12 @@ int main()
         rev=rev*10+rem;
         n /=10;
     }
-    if(org==rev)
-    {
-        printf("True");
-    }
-    else
-    {
-        printf("False");
-    }
+        if(org==rev)
+        {
+            printf("True");
+        }
+        else
+        {
+            printf("False");
+        }
 }
