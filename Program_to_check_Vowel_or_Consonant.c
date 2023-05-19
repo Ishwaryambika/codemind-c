@@ -1,19 +1,50 @@
 #include<stdio.h>
 int main()
 {
-    char ch;
-    int lowercase_Vowel, uppercase_Vowel;
-    scanf(" %c", &ch);
-
-    lowercase_Vowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
-    uppercase_Vowel = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
-
-    if (lowercase_Vowel || uppercase_Vowel)
+    char c;
+    scanf("%c",&c);
+    if(c=='A')
     {
-    	printf("Vowel");
-	}
-    else {
-    	printf("Consonant");
-	}
-    return 0;
+        printf("Vowel");
+    }
+    else if(c=='E')
+    {
+        printf("Vowel");
+    }
+    else if(c=='I')
+    {
+        printf("Vowel");
+    }
+    else if(c=='O')
+    {
+        printf("Vowel");
+    }
+    else if(c=='U')
+    {
+        printf("Vowel");
+    }
+    else if(c=='a')
+    {
+        printf("Vowel");
+    }
+    else if(c=='e')
+    {
+        printf("Vowel");
+    }
+    else if(c=='i')
+    {
+        printf("Vowel");
+    }
+    else if(c=='o')
+    {
+        printf("Vowel");
+    }
+    else if(c=='o')
+    {
+        printf("Vowel");
+    }
+    else
+    {
+        printf("Consonant");
+    }
 }
