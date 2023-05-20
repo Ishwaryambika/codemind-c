@@ -1,7 +1,8 @@
 #include<stdio.h>
-int main() 
+int main()
 {
-   int n,num,i,j,r,k=0,flag=1;
+
+   int n, num, i, j, r, k = 0, flag = 1;
    int arr[100];
    scanf("%d", &n);
    num = n;
@@ -13,9 +14,9 @@ int main()
        k++;
    }
 
-   for (i = 0; i < k; i++)
+   for (i = 0; i < k; i++) 
    {
-       for (j = i + 1; j < k; j++) 
+       for (j = i + 1; j < k; j++)
        {
            if (arr[i] == arr[j]) 
            {
@@ -25,7 +26,7 @@ int main()
 
    }
 
-   if (flag == 1)
+   if (flag == 1) 
    {
        printf("Unique Number");
    } 
@@ -33,6 +34,4 @@ int main()
    {
        printf("Not Unique Number");
    }
-
-   return 0;
 }
