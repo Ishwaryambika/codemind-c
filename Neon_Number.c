@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int num, digit, sum =0;
@@ -11,9 +11,11 @@ int main()
         square = square/10;
     }
     if(sum == num)
+    {
         printf("Neon Number");
+    }
     else
+    {
         printf("Not Neon Number");
- 
-    return 0;
+    }
 }
