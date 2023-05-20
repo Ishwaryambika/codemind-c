@@ -21,9 +21,9 @@ int n,x=0;
             {  
                 printf("Not Ugly Number"); 
                 x = 1;  
-                break;
-            }
-       }
+                break;  
+            }  
+        } 
 		        if (x==0)
 		        { 
                 printf("Ugly Number");
