@@ -1,14 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,s=0,p=1;
+    int n,i,sum=0,mul=1,s,rem;
     scanf("%d",&n);
-    while(n!=0)
+    while(n>0)
     {
-        r=n%10;
+        rem=n%10;
+        sum=sum+rem;
+        mul=mul*rem;
         n=n/10;
-        s=s+r;
-        p=p*r;
     }
-    printf("%d",p-s);
+    s=mul-sum;
+    printf("%d",s);
 }
+
+ 
