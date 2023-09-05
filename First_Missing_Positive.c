@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+    int n,a[100],i,k,max=0,j,c=0,f;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(max<=a[i])
+        {
+            max=a[i];
+        }
+    }
+    for(k=1;k<=max;k++)
+    {
+        c=0;
+        for(j=0;j<n;j++)
+        {
+            if(k!=a[j])
+            {
+                c+=1;
+            }
+        }
+        if(c==n)
+        {
+            printf("%d",k);
+            f=1;
+            break;
+        }
+    }
+    if(f==0)
+    {
+        printf("%d",(max+1));
+    }
+}
